@@ -1,0 +1,92 @@
+header{
+    background-image: url("../images/220613-N-YS413-1067.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    background-position: 0 -25vh;
+}
+div.rgba{
+    min-height: 80vh;
+    background-image: linear-gradient(180deg, black, transparent, black)
+}
+a img#navbarImg{
+    width: 200px;
+    height: 100px;
+}
+ul.dropdown-menu{
+    background-color:rgb(2, 45, 52);
+}
+ul.dropdown-menu li a{
+   color: whitesmoke;
+  }
+  ul.dropdown-menu li a:hover{
+    color:  black;
+   }
+ul.navbar-nav li a{
+    color: white;
+}
+ul.navbar-nav li a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+p.card-text{
+    font-size: 14px;
+}
+div.card-body a{
+    background-color: rgb(3, 77, 88);
+    color: white;
+}
+div.card1{
+    background-color: rgb(2, 45, 52);
+    color: white;
+}
+main{
+    background-image: url("../images/DON-SEAL.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 10vh;
+}
+main div.rgb{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+div.profile div.mb-2{
+    padding-left: 1rem;
+}
+ul.nav-tabs{
+    width: fit-content;
+}
+footer li{
+    list-style: none;
+}
+footer{
+    background-color: rgba(0,0,0,0.1);
+}
+div.links a{
+    text-decoration: none;
+    color: rgb(2, 45, 52);
+    font-weight: bolder;;
+}
+div.links li{
+    list-style: none;
+    padding: 6px 0px 6px 0px;
+}
+div.pagedivs div.row div.mb-2 label b{
+    color:rgb(3, 77, 88);
+}
+div.pagedivs div.row div.mb-2 p, div.profile div.row div.mb-4 p{
+    color: rgb(2, 45, 52);
+}
+div.pagedivs h4.pb-2{
+    color: rgb(87, 78, 58);
+}
+table.table th{
+    color: rgb(3, 77, 88);
+    font-size: medium;
+}
+table.table td{
+    color: rgb(2, 45, 52);
+}
+li.nav-item a.nav-link{
+    width: fit-content;
+}

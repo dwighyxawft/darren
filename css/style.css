@@ -1,0 +1,154 @@
+header{
+    background-image: url("../images/220613-N-YS413-1067.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    background-position: 0 -25vh;
+}
+div.rgba{
+    min-height: 80vh;
+    background-image: linear-gradient(180deg, black, transparent, black)
+}
+a img#navbarImg{
+    width: 200px;
+    height: 100px;
+}
+ul.dropdown-menu{
+    background-color:rgb(2, 45, 52);
+}
+ul.dropdown-menu li a{
+   color: whitesmoke;
+  }
+  ul.dropdown-menu li a:hover{
+    color:  black;
+   }
+ul.navbar-nav li a{
+    color: white;
+}
+ul.navbar-nav li a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+p.card-text{
+    font-size: 14px;
+}
+div.card-body a{
+    background-color: rgb(3, 77, 88);
+    color: white;
+}
+div.card1{
+    background-color: rgb(2, 45, 52);
+    color: white;
+}
+div.cards, div.rgb{
+    height: 450px;
+}
+div.rgb{
+    background-color: rgba(0,0,0,0.6);
+}
+div.rg{
+    background-color: rgba(0,0,0,0.6);
+}
+div.ico{
+    width: fit-content;
+}
+div.car1{
+    background-image: url("../images/DON-SEAL.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.car2{
+    background-image: url("../images/220615-N-OP825-1002.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.car3{
+    background-image: url("../images/220617-N-RY670-1052.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.car4{
+    background-image: url("../images/220524-N-NO191-0001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.car5{
+    background-image: url("../images/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.car6{
+    background-image: url("../images/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.cards h3.card-title a {
+    color: white;
+    text-decoration: none;
+}
+div.iconDiv a h3{
+    color: rgb(3, 77, 88);
+}
+p.h-lines{
+    line-height: 2rem;
+}
+div.fourdivs a{
+    text-decoration: none;
+    color:rgb(3, 77, 88);
+}
+div.fourdivs div.bord1{
+    border-top: 2px solid rgb(188, 184, 184);
+    border-bottom: 2px solid rgb(188, 184, 184);
+}
+div.fourdivs div.bord1:nth-child(1){
+    border-right: 2px solid rgb(188, 184, 184);
+}
+div.fourdivs div.bord2{
+    border-right: 2px solid rgb(188, 184, 184);
+    border-top: 2px solid rgb(188, 184, 184);
+    border-bottom: 2px solid rgb(188, 184, 184);
+}
+div.fourdivs div.bord2:nth-child(1){
+    border-left: 2px solid rgb(188, 184, 184);
+}
+footer li{
+    list-style: none;
+}
+footer{
+    background-color: rgba(0,0,0,0.1);
+}
+div.links a{
+    text-decoration: none;
+    color: rgb(2, 45, 52);
+    font-weight: bolder;;
+}
+div.links li{
+    list-style: none;
+    padding: 6px 0px 6px 0px;
+}
+li.nav-item a.nav-link{
+    width: fit-content;
+}
+form label strong{
+    color: rgb(3, 77, 88);
+}
+form button.btn{
+    background-color: rgb(2, 45, 52);
+    color: white;
+}
+@media screen and (max-width: 1000px) {
+    .deviceView{
+        display: none;
+    }
+    div.ico{
+        width: fit-content;
+        margin: auto;
+    }
+    a.navbar-brand{
+        margin: auto;
+    }
+    li.nav-item a.nav-link{
+        width: fit-content;
+    }
+}
