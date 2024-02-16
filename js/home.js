@@ -20,7 +20,7 @@ if(typeof(loggedIn) == undefined || loggedIn == "false" || !loggedIn){
     
        var second = [{p_code:"QCTIOVIEX", r_date: "2023/01/04", p_date: "2023/01/05", amount: "7,500", status: "Deposit"}, {p_code:"ACDIOVIDE", r_date: "2023/02/06", p_date: "2023/02/07", amount: "7,500", status: "Deposit"}, {p_code:"BCEIOFTBL", r_date: "2023/03/02", p_date: "2023/03/03", amount: "7,500", status: "Deposit"}, {p_code:"ARESBKJRC", r_date: "2023/04/04", p_date: "2023/04/05", amount: "7,500", status: "Deposit"}, {p_code:"BVETMHIMD", r_date: "2023/05/04", p_date: "2023/05/05", amount: "7,500", status: "Deposit"}, {p_code:"RGNTMHIMD", r_date: "2023/06/04", p_date: "2023/06/05", amount: "7,500", status: "Deposit"}, {p_code:"B0ETMHIRG", r_date: "2023/07/07", p_date: "2023/07/08", amount: "7,500", status: "Deposit"}, {p_code:"BVTTMRIMD", r_date: "2023/08/02", p_date: "2023/08/03", amount: "7,500", status: "Deposit"}, {p_code:"NOBSTGHBFR", r_date: "2023/09/01", p_date: "2023/09/02", amount: "7,500", status: "Deposit"}, {p_code:"NHRVBTCBBFR", r_date: "2023/10/12", p_date: "2023/10/13", amount: "10,500", status: "Deposit"}, {p_code:"ABGHILOMP", r_date: "2023/11/07", p_date: "2023/11/08", amount: "10,500", status: "Deposit"}, {p_code:"QRSWBVOLT", r_date: "2023/12/10", p_date: "2023/12/11", amount: "10,500", status: "Deposit"}];
 
-     var first = [{p_code:"QQROBBSTU", r_date: "2024/01/03", p_date: "2023/09/04", amount: "10,500", status: "Deposit"}];
+     var first = [{p_code:"QQROBBSTU", r_date: "2024/01/03", p_date: "2024/01/04", amount: "10,500", status: "Deposit"}];
     var arrs = [first, second, third, fourth];
     
     tbody.forEach(function(tab){
